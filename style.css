@@ -1,0 +1,32 @@
+.wrapper {
+  margin: 10% auto;
+  width: fit-content;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+.tab {
+  background-color: #8a8b8a;
+  padding: 5px 10px;
+  transition: all 400ms ease;
+}
+
+.tab:hover {
+  cursor: pointer;
+  background-color: #d4d8d4;
+}
+.tab-content {
+  border: 2px solid #f28585;
+  height: 200px;
+  width: 500px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.hidden {
+  display: none;
+}
